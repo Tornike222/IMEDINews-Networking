@@ -15,6 +15,7 @@ class PostCell: UITableViewCell {
     var postImage: UIImageView = {
         let postImage = UIImageView()
         postImage.translatesAutoresizingMaskIntoConstraints = false
+        postImage.contentMode = .scaleAspectFill
         return postImage
     }()
     
